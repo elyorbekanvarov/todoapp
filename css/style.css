@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: hsl(190, 90%, 70%);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.container .todo-app {
+  margin-top: 100px;
+  width: 400px;
+  height: 460px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+}
+.container .todo-app .new-todo {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.container .todo-app .new-todo input {
+  border: none;
+  border: 1px solid hsl(0, 0%, 70%);
+  border-radius: 2px;
+  margin-top: 20px;
+  width: 350px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container .todo-app .new-todo input:focus {
+  outline: none;
+}
+.container .todo-app .new-todo button {
+  margin-top: 20px;
+  height: 50px;
+  border: none;
+  width: 65px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 2px;
+}
+.container .todo-app .new-todo button:hover {
+  background-color: hsl(271, 76%, 73%);
+  transform: rotate(360deg);
+}
+
+.task {
+  width: 350px;
+  height: 50px;
+  border-radius: 2px;
+  padding-left: 10px;
+  background-color: hsl(0, 0%, 90%);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.foot {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-top: 20px;
+}
+.foot button {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: blueviolet;
+  transition: all 0.5s;
+  color: white;
+}
+.foot button:hover {
+  background-color: hsl(271, 76%, 73%);
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
